@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaultPreferences>
+  <preference name="Person 1" selected="true"/>
+  <preference name="Person 2"/>
+  <preference name="Person 3"/>
+  <preference name="Person 4"/>
+</defaultPreferences>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaultPreferences>
+  <preference name="Analyst" selected="true"/>
+  <preference name="Manager"/>
+  <preference name="Director"/>
+</defaultPreferences>

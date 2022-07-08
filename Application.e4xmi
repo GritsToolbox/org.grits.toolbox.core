@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_Fai20NsWEeWDyICkaK4Vwg" elementId="org.grits.toolbox.core.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_jvtQ4Ns2EeWvhq2Ux48kDg" elementId="org.grits.toolbox.core.trimmedwindow.main" selectedElement="_uIMGkO0cEeWgL5OfHXdhOw" label="GRITS Toolbox 1.1" iconURI="platform:/plugin/org.grits.toolbox.core/icons/icon48.png" bindingContexts="_7ZLkgODdEeaUVu2_1UmTXg" x="0" y="0">
+    <tags>shellMaximized</tags>
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_uIMGkO0cEeWgL5OfHXdhOw" elementId="org.grits.toolbox.core.perspectivestack.0" selectedElement="_foLkgO1CEeWgL5OfHXdhOw">
+      <tags>default</tags>
+      <children xsi:type="advanced:Perspective" xmi:id="_foLkgO1CEeWgL5OfHXdhOw" elementId="org.grits.toolbox.core.perspective.projectexplorer" selectedElement="_lPP6sO1CEeWgL5OfHXdhOw" label="Default Perspective" iconURI="platform:/plugin/org.grits.toolbox.core/icons/icon16.png">
+        <tags>default</tags>
+        <children xsi:type="basic:PartSashContainer" xmi:id="_lPP6sO1CEeWgL5OfHXdhOw" elementId="org.grits.toolbox.core.partsashcontainer.0" selectedElement="_m3Lh0O1CEeWgL5OfHXdhOw" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_m3Lh0O1CEeWgL5OfHXdhOw" elementId="org.grits.toolbox.core.partstack.0" containerData="2500" selectedElement="_ngkdEO1CEeWgL5OfHXdhOw">
+            <children xsi:type="advanced:Placeholder" xmi:id="_ngkdEO1CEeWgL5OfHXdhOw" elementId="org.grits.toolbox.core.placeholder.projectexplorer.1" ref="_Uj1AIOVIEeWC8ICzfPvYiA"/>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_hHD5IO1JEeWgL5OfHXdhOw" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_n0wCgO-hEeWnE9fH0v_Ddw" closeable="true"/>
+        </children>
+      </children>
+      <children xsi:type="advanced:Perspective" xmi:id="_ukiEUO0cEeWgL5OfHXdhOw" elementId="org.grits.toolbox.core.perspective.entry.project" selectedElement="_JEEeMO0dEeWgL5OfHXdhOw" label="Project Perspective" iconURI="platform:/plugin/org.grits.toolbox.core/icons/project-collab-icon.png">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_JEEeMO0dEeWgL5OfHXdhOw" elementId="org.grits.toolbox.core.partsashcontainer.1" containerData="7000" selectedElement="_7MFPIO0mEeWgL5OfHXdhOw" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_7MFPIO0mEeWgL5OfHXdhOw" elementId="org.grits.toolbox.core.partstack.1" containerData="2500" selectedElement="_oGLrYO0dEeWgL5OfHXdhOw">
+            <children xsi:type="advanced:Placeholder" xmi:id="_oGLrYO0dEeWgL5OfHXdhOw" elementId="org.grits.toolbox.core.placeholder.projectexplorer.2" containerData="2000" ref="_Uj1AIOVIEeWC8ICzfPvYiA"/>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_l6AqwO1JEeWgL5OfHXdhOw" elementId="org.eclipse.ui.editorss" containerData="5000" ref="_n0wCgO-hEeWnE9fH0v_Ddw" closeable="true">
+            <tags>org.grits.toolbox.property.project</tags>
+          </children>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_ql0WkO0dEeWgL5OfHXdhOw" elementId="org.grits.toolbox.core.partsashcontainer.2" containerData="2500" selectedElement="_sNX0IO0mEeWgL5OfHXdhOw" horizontal="true">
+            <children xsi:type="basic:PartStack" xmi:id="_sNX0IO0mEeWgL5OfHXdhOw" elementId="org.grits.toolbox.core.partstack.2" containerData="10000" selectedElement="_rKkpcO0dEeWgL5OfHXdhOw">
+              <children xsi:type="advanced:Placeholder" xmi:id="_rKkpcO0dEeWgL5OfHXdhOw" elementId="org.grits.toolbox.core.placeholder.project.collaborator" ref="_ZvMP4OFlEeW8MeAy0NvSmw"/>
+              <children xsi:type="advanced:Placeholder" xmi:id="_rfnsYO0dEeWgL5OfHXdhOw" elementId="org.grits.toolbox.core.placeholder.project.task" ref="_kVxn8OrEEeWtuK7MJgvLRg"/>
+              <children xsi:type="advanced:Placeholder" xmi:id="_r2UVIO0dEeWgL5OfHXdhOw" elementId="org.grits.toolbox.core.placeholder.project.event" ref="_3mwrUOyDEeWqlpIj-5aguA"/>
+            </children>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="advanced:Perspective" xmi:id="_STCP0PzOEeWIevMn6DjF3w" elementId="org.grits.toolbox.core.perspective.gritsintro" selectedElement="_lVYfYPzOEeWIevMn6DjF3w" label="Intro Perspective" iconURI="" tooltip="Shows the intro page with welcome message">
+        <children xsi:type="basic:Part" xmi:id="_lVYfYPzOEeWIevMn6DjF3w" elementId="org.grits.toolbox.core.part.intro" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.GritsIntroPart" label="Welcome" iconURI="platform:/plugin/org.grits.toolbox.core/icons/icon16.png" tooltip="Dispalys the welcome message with general information" closeable="true"/>
+      </children>
+      <children xsi:type="advanced:Perspective" xmi:id="_8oOYgH6bEeal6eJj0S7olg" elementId="org.grits.toolbox.editor.experimentdesigner.designPerspective" label="Experiment Design" tooltip="Experiment Design Perspective">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_CwDSYH6cEeal6eJj0S7olg" elementId="org.grits.toolbox.core.partsashcontainer.3" selectedElement="_EvvSMH6cEeal6eJj0S7olg" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_EvvSMH6cEeal6eJj0S7olg" elementId="org.grits.toolbox.core.partstack.3" containerData="2500">
+            <children xsi:type="advanced:Placeholder" xmi:id="_GYGXIH6cEeal6eJj0S7olg" elementId="org.grits.toolbox.core.placeholder.projectexplorer.3" ref="_Uj1AIOVIEeWC8ICzfPvYiA"/>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_LACyoH6cEeal6eJj0S7olg" elementId="org.eclipse.ui.editorss" containerData="6000" ref="_n0wCgO-hEeWnE9fH0v_Ddw">
+            <tags>org.grits.toolbox.property.experiment</tags>
+          </children>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_OmeGwH6cEeal6eJj0S7olg" elementId="org.grits.toolbox.core.partsashcontainer.protocoldetails" containerData="2000">
+            <children xsi:type="basic:PartStack" xmi:id="_aDdHcH6cEeal6eJj0S7olg" elementId="org.grits.toolbox.core.partstack.protocolview"/>
+            <children xsi:type="basic:PartStack" xmi:id="_T3J9QH6cEeal6eJj0S7olg" elementId="org.grits.toolbox.core.partstack.paperview"/>
+            <children xsi:type="basic:PartStack" xmi:id="_SLUtkH6cEeal6eJj0S7olg" elementId="org.grits.toolbox.core.partstack.parameterview"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="advanced:Perspective" xmi:id="_awRVQIZfEeawbKGHyqf-5g" elementId="org.grits.toolbox.entry.qrtpcr.perspective" label="qRT-PCR Perspective" tooltip="qRT-PCR Perspective">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_kR41cIZfEeawbKGHyqf-5g" elementId="org.grits.toolbox.core.partsashcontainer.4" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_m_K7EIZfEeawbKGHyqf-5g" elementId="org.grits.toolbox.core.partstack.4" containerData="2500">
+            <children xsi:type="advanced:Placeholder" xmi:id="_oDUfsIZfEeawbKGHyqf-5g" elementId="org.grits.toolbox.core.placeholder.projectexplorer.4" ref="_Uj1AIOVIEeWC8ICzfPvYiA"/>
+          </children>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_5p8YIIZfEeawbKGHyqf-5g" elementId="org.grits.toolbox.core.partsashcontainer.5" containerData="7000">
+            <children xsi:type="advanced:Placeholder" xmi:id="_qKzJkIZfEeawbKGHyqf-5g" elementId="org.eclipse.ui.editorss" containerData="6000" ref="_n0wCgO-hEeWnE9fH0v_Ddw"/>
+            <children xsi:type="basic:PartStack" xmi:id="__IpcgIZfEeawbKGHyqf-5g" elementId="org.grits.toolbox.core.partstack.histogramview" visible="false" containerData="2500">
+              <children xsi:type="basic:Part" xmi:id="_NZ7TsNMXEeiU2aqybmCUvQ" elementId="org.grits.toolbox.core.part.qrtpcr.invisible" visible="false"/>
+            </children>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="advanced:Perspective" xmi:id="_h8qAIOSpEeaM6r-R8AvxBA" elementId="uk.ac.imperial.glycosciences.glycanarray.perspective" label="GlycanArray Perspective" tooltip="GlycanArray Perspective">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_joIDcOSpEeaM6r-R8AvxBA" elementId="org.grits.toolbox.core.partsashcontainer.6" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_joIDceSpEeaM6r-R8AvxBA" elementId="org.grits.toolbox.core.partstack.5" containerData="2500">
+            <children xsi:type="advanced:Placeholder" xmi:id="_joIDcuSpEeaM6r-R8AvxBA" elementId="org.grits.toolbox.core.placeholder.projectexplorer.5" ref="_Uj1AIOVIEeWC8ICzfPvYiA"/>
+          </children>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_joIDc-SpEeaM6r-R8AvxBA" elementId="org.grits.toolbox.core.partsashcontainer.7" containerData="7000">
+            <children xsi:type="advanced:Placeholder" xmi:id="_joIDdOSpEeaM6r-R8AvxBA" elementId="org.eclipse.ui.editorss" containerData="6000" ref="_n0wCgO-hEeWnE9fH0v_Ddw"/>
+            <children xsi:type="basic:PartStack" xmi:id="_joIDdeSpEeaM6r-R8AvxBA" elementId="org.grits.toolbox.core.partstack.histogramview.glycanarray" visible="false" containerData="2500">
+              <children xsi:type="basic:Part" xmi:id="_dW90oNMWEeiU2aqybmCUvQ" elementId="org.grits.toolbox.core.partstack.histogramview.glycanarray.invisible" visible="false"/>
+            </children>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="advanced:Perspective" xmi:id="_FFDpkL8tEee9_ID610mfTw" elementId="org.grits.toolbox.core.perspective.msperspective" label="MS Perspective" tooltip="Mass Spec Perspective">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_OPHlYL8tEee9_ID610mfTw" elementId="org.grits.toolbox.core.partsashcontainer.8" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_noRUEL8vEee9_ID610mfTw" elementId="org.grits.toolbox.core.partstack.ms" containerData="2500">
+            <children xsi:type="advanced:Placeholder" xmi:id="_mCi-UL8tEee9_ID610mfTw" elementId="org.grits.toolbox.core.placeholder.projectexplorer.ms" containerData="" ref="_Uj1AIOVIEeWC8ICzfPvYiA"/>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_XDQUgL8tEee9_ID610mfTw" elementId="org.eclipse.ui.editorss" containerData="6000" ref="_n0wCgO-hEeWnE9fH0v_Ddw"/>
+        </children>
+      </children>
+    </children>
+    <handlers xmi:id="_4F1XEPHgEeWoXJuVDfCXAg" elementId="org.grits.toolbox.core.handler.projectexplorer.open.project" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.projectexplorer.handler.OpenProjectHandler" command="_zNaPkPHgEeWoXJuVDfCXAg"/>
+    <handlers xmi:id="_nRNPYPH4EeWoXJuVDfCXAg" elementId="org.grits.toolbox.core.handler.projectexplorer.close.project" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.projectexplorer.handler.CloseProjectHandler" command="_qd2xkPH4EeWoXJuVDfCXAg"/>
+    <handlers xmi:id="_ngC1MPK_EeWPP7B_789HvQ" elementId="org.grits.toolbox.core.handler.projectexplorer.entry.delete" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.projectexplorer.handler.DeleteEntryHandler" command="_roVgQPK_EeWPP7B_789HvQ"/>
+    <handlers xmi:id="_NM9aMPT0EeWA4d4-LPo-Vg" elementId="org.grits.toolbox.core.handler.projectexplorer.entry.refresh" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.projectexplorer.handler.RefreshEntryHandler" command="_Qq45oPT0EeWA4d4-LPo-Vg"/>
+    <handlers xmi:id="_REiI4PUZEeWA4d4-LPo-Vg" elementId="org.grits.toolbox.core.handler.projectexplorer.entry.rename" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.projectexplorer.handler.RenameEntryHandler" command="_Hh6jIPUZEeWA4d4-LPo-Vg"/>
+    <handlers xmi:id="_dJFnAPW1EeWnsrqUU9oM-w" elementId="org.grits.toolbox.core.handler.entry.project.export" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.projectexplorer.handler.ExportProjectHandler" command="_NPtTgPW1EeWnsrqUU9oM-w"/>
+    <handlers xmi:id="_c5X6kPW2EeWnsrqUU9oM-w" elementId="org.grits.toolbox.core.handler.export.project.task" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.projectexplorer.handler.ExportTaskHandler" command="_ImUREPW2EeWnsrqUU9oM-w"/>
+    <handlers xmi:id="_DxZUEPW3EeWnsrqUU9oM-w" elementId="org.grits.toolbox.core.handler.entry.project.import" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.projectexplorer.handler.ImportProjectHandler" command="_4QeOkPW2EeWnsrqUU9oM-w"/>
+    <handlers xmi:id="_ErhD0OVtEeWC8ICzfPvYiA" elementId="org.grits.toolbox.core.handler.projectexplorer.copy" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.projectexplorer.handler.CopyEntryHandler" command="_-J_QgOVsEeWC8ICzfPvYiA"/>
+    <handlers xmi:id="_BuSdYObQEeW6y9Dzc8fvoA" elementId="org.grits.toolbox.core.handler.projectexplorer.doubleclick" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.projectexplorer.handler.ViewSelectedHandler" command="_Nuff4ObQEeW6y9Dzc8fvoA"/>
+    <handlers xmi:id="_jsAj0PEHEeWRmMYYlwWG3Q" elementId="org.grits.toolbox.core.handler.projectexplorer.new.project" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.projectexplorer.handler.NewProjectHandler" command="_oXtd8PEHEeWRmMYYlwWG3Q"/>
+    <mainMenu xmi:id="_BdBCkPEVEeWRmMYYlwWG3Q" elementId="org.grits.toolbox.core.menu.main">
+      <children xsi:type="menu:Menu" xmi:id="_DNoroPEVEeWRmMYYlwWG3Q" elementId="org.grits.toolbox.core.menu.main.grits" label="&amp;File">
+        <children xsi:type="menu:Menu" xmi:id="_WtWMoPEVEeWRmMYYlwWG3Q" elementId="org.grits.toolbox.core.menu.main.grits.new" label="New">
+          <children xsi:type="menu:HandledMenuItem" xmi:id="_r00VoPEVEeWRmMYYlwWG3Q" elementId="org.grits.toolbox.core.handledmenuitem.main.new.project" label="Project" iconURI="platform:/plugin/org.grits.toolbox.core/icons/project.png" tooltip="Create a new project entry" command="_oXtd8PEHEeWRmMYYlwWG3Q"/>
+        </children>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_5WCUUPHYEeWoXJuVDfCXAg" elementId="org.grits.toolbox.core.menuseparator.main.grits.afternew"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_Qp-U4PHZEeWoXJuVDfCXAg" elementId="org.grits.toolbox.core.handledmenuitem.main.grits.save" label="Save" iconURI="" tooltip="Save currently dirty part" mnemonics="" command="__say0Ob8EeW6y9Dzc8fvoA"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_dJmzcPHbEeWoXJuVDfCXAg" elementId="org.grits.toolbox.core.menuseparator.main.grits.aftersave"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_bmH6MPaLEeWPr5Hyqf2VQw" elementId="org.grits.toolbox.core.handledmenuitem.main.grits.preference" label="Preference" tooltip="Preference for GRITS" command="_W_fxQADnEeaUF_R45Sy6sQ"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_nRk0sPaLEeWPr5Hyqf2VQw" elementId="org.grits.toolbox.core.menuseparator.4"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_6bWi8PaAEeWPr5Hyqf2VQw" elementId="org.grits.toolbox.core.handledmenuitem.main.grits.exportprojects" label="Export Project(s)" tooltip="Exports the selected project(s) into a .GR zipped file" command="_NPtTgPW1EeWnsrqUU9oM-w"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_8trK4PaAEeWPr5Hyqf2VQw" elementId="org.grits.toolbox.core.menuseparator.2"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_9-7-cPaAEeWPr5Hyqf2VQw" elementId="org.grits.toolbox.core.handledmenuitem.main.grits.import" label="Import.." tooltip="Imports the project(s) from a zipped .GR file" command="_4QeOkPW2EeWnsrqUU9oM-w"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_BOhf4PaBEeWPr5Hyqf2VQw" elementId="org.grits.toolbox.core.menuseparator.3"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_CFOeYPaBEeWPr5Hyqf2VQw" elementId="org.grits.toolbox.core.handledmenuitem.main.grits.resetperspective" label="Reset Perspective" tooltip="Resets the currently selected Perspective" command="_jAovgPaBEeWPr5Hyqf2VQw"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_sCcDEPqmEeWnS5JO5mg-9w" elementId="org.grits.toolbox.core.menuseparator.5"/>
+        <children xsi:type="menu:DynamicMenuContribution" xmi:id="_TaCbQPAoEemGMNtmis6IaQ" elementId="org.grits.toolbox.core.dynamicmenucontribution.about" label="About GRITS" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.handler.AboutMenu"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_reJDMPqmEeWnS5JO5mg-9w" elementId="org.grits.toolbox.core.handledmenuitem.main.grits.quit" label="Quit" tooltip="Quits the main application" command="_ICLg4PqmEeWnS5JO5mg-9w"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_OCswsPEVEeWRmMYYlwWG3Q" elementId="org.grits.toolbox.core.menu.main.project" label="&amp;Project">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_S9z7kPHgEeWoXJuVDfCXAg" elementId="org.grits.toolbox.core.handledmenuitem.main.project.open" label="Open" tooltip="Open selected project" command="_zNaPkPHgEeWoXJuVDfCXAg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_vJYFgPH4EeWoXJuVDfCXAg" elementId="org.grits.toolbox.core.handledmenuitem.main.project.close" label="Close" tooltip="Close the selected project" command="_qd2xkPH4EeWoXJuVDfCXAg"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_BW21cE0FEeab0oJABj3lSw" elementId="org.grits.toolbox.core.menu.main.plugins" label="Tools"/>
+    </mainMenu>
+    <sharedElements xsi:type="basic:Part" xmi:id="_Uj1AIOVIEeWC8ICzfPvYiA" elementId="org.grits.toolbox.core.part.projectexplorer" containerData="" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.projectexplorer.part.ProjectExplorerPart" label="Project Explorer" iconURI="platform:/plugin/org.grits.toolbox.core/icons/project2.png">
+      <tags>NO_CLOSE</tags>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_n30nQOVyEeWC8ICzfPvYiA" elementId="org.grits.toolbox.core.popupmenu.projectexplorer">
+        <children xsi:type="menu:Menu" xmi:id="_Z-MasPEHEeWRmMYYlwWG3Q" elementId="org.grits.toolbox.core.menu.projectexplorer.popup.submenu.new" label="New">
+          <children xsi:type="menu:HandledMenuItem" xmi:id="_g7hZMPEHEeWRmMYYlwWG3Q" elementId="org.grits.toolbox.core.handledmenuitem.projectexplorer.new.project" label="Project" iconURI="platform:/plugin/org.grits.toolbox.core/icons/project.png" tooltip="Create a new project entry" enabled="false" mnemonics="" command="_oXtd8PEHEeWRmMYYlwWG3Q"/>
+        </children>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_rxp6kPHeEeWoXJuVDfCXAg" elementId="org.grits.toolbox.core.menuseparator.projectexplorer.afternew"/>
+        <children xsi:type="menu:Menu" xmi:id="_nhRqgPHeEeWoXJuVDfCXAg" elementId="org.grits.toolbox.core.menu.projectexplorer.popup.submenu.view" label="View" iconURI="">
+          <children xsi:type="menu:HandledMenuItem" xmi:id="_9QRtkPHeEeWoXJuVDfCXAg" elementId="org.grits.toolbox.core.handledmenuitem.projectexplorer.view.properties" label="Properties" tooltip="View Property of the selected entry" command="_Nuff4ObQEeW6y9Dzc8fvoA"/>
+        </children>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_oXSsgPHeEeWoXJuVDfCXAg" elementId="org.grits.toolbox.core.menuseparator.projectexplorer.afterview"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_qD_j4OVyEeWC8ICzfPvYiA" elementId="org.grits.toolbox.core.handledmenuitem.projectexplorer.copy" label="Copy to.." tooltip="It copies an entry from one parent to another in the workspace" command="_-J_QgOVsEeWC8ICzfPvYiA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_n_s1YPUfEeWA4d4-LPo-Vg" elementId="org.grits.toolbox.core.handledmenuitem.projectexplorer.rename" label="Rename" tooltip="Rename the selected Entry" command="_Hh6jIPUZEeWA4d4-LPo-Vg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_UQ5YYPLCEeWPP7B_789HvQ" elementId="org.grits.toolbox.core.handledmenuitem.delete" label="Delete" iconURI="platform:/plugin/org.grits.toolbox.core/icons/red-cross-icon.png" command="_roVgQPK_EeWPP7B_789HvQ"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_47zgAPW1EeWnsrqUU9oM-w" elementId="org.grits.toolbox.core.menuseparator.0"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_7RWbEPW1EeWnsrqUU9oM-w" elementId="org.grits.toolbox.core.handledmenuitem.projectexplorer.project.export" label="Export Project(s)" tooltip="Export the selected project(s) into a .GR zipped file" command="_NPtTgPW1EeWnsrqUU9oM-w"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_rHlFsPW2EeWnsrqUU9oM-w" elementId="org.grits.toolbox.core.handledmenuitem.projectexplorer.export.project.task" label="Export Task" tooltip="Exports project tasks into an excel sheet" command="_ImUREPW2EeWnsrqUU9oM-w"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_UzQ5oPW3EeWnsrqUU9oM-w" elementId="org.grits.toolbox.core.menuseparator.1"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_V6EwsPW3EeWnsrqUU9oM-w" elementId="org.grits.toolbox.core.handledmenuitem.entry.project.import" label="Import.." tooltip="Imports the project(s) from a zipped .GR file" command="_4QeOkPW2EeWnsrqUU9oM-w"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_v2H9IPIAEeWoXJuVDfCXAg" elementId="org.grits.toolbox.core.menuseparator.projectexplorer.aftercopy"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_BpNAIPUVEeWA4d4-LPo-Vg" elementId="org.grits.toolbox.core.handledmenuitem.projectexplorer.refresh" label="Refresh" tooltip="Resfreshes the selected entry" command="_Qq45oPT0EeWA4d4-LPo-Vg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_2swdwPIAEeWoXJuVDfCXAg" elementId="org.grits.toolbox.core.handledmenuitem.projectexplorer.openproject" label="Open Project" tooltip="Open selected project" command="_zNaPkPHgEeWoXJuVDfCXAg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_Bjy4wPIBEeWoXJuVDfCXAg" elementId="org.grits.toolbox.core.handledmenuitem.projectexplorer.closeproject" label="Close Project" tooltip="Close selected project" command="_qd2xkPH4EeWoXJuVDfCXAg"/>
+      </menus>
+      <toolbar xmi:id="_z0feQH4qEeimh_cfv371lw" elementId="org.grits.toolbox.core.toolbar.4">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_0jIs8H4qEeimh_cfv371lw" elementId="org.grits.toolbox.core.handledtoolitem.hideClosed" label="Hide Closed Projects" tooltip="Toggle between &quot;Do not show closed projects&quot;/&quot;Show all projects&quot;" type="Check" command="_SQGB4H4nEeimh_cfv371lw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_DIDU4IxCEeimh_cfv371lw" elementId="org.grits.toolbox.core.handledtoolitem.filterbykeyword" label="Filter By Keyword" tooltip="Toggle between filtered and the original list" type="Check" command="_8C5QEIxBEeimh_cfv371lw"/>
+      </toolbar>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ZvMP4OFlEeW8MeAy0NvSmw" elementId="org.grits.toolbox.core.part.project.collaborator" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.part.CollaboratorPart" label="Collaborator" iconURI="platform:/plugin/org.grits.toolbox.core/icons/project-collab-icon.png" tooltip="It displays information related to selected project collaborator" closeable="true">
+      <toolbar xmi:id="_oqfKgOFlEeW8MeAy0NvSmw" elementId="org.grits.toolbox.core.toolbar.0">
+        <children xsi:type="menu:DirectToolItem" xmi:id="_tGmwgOFlEeW8MeAy0NvSmw" elementId="org.grits.toolbox.core.directtoolitem.project.collaborator" label="Save Preference" iconURI="platform:/plugin/org.grits.toolbox.core/icons/save-16.png" tooltip="Save it as a preference" enabled="false" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.part.toolitem.SaveCollaborator"/>
+      </toolbar>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_kVxn8OrEEeWtuK7MJgvLRg" elementId="org.grits.toolbox.core.part.project.task" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.part.TaskPart" label="Project Task" iconURI="platform:/plugin/org.grits.toolbox.core/icons/tasklist-icon.png" tooltip="It displays information related to selected project task" closeable="true">
+      <toolbar xmi:id="_1NiPQOrEEeWtuK7MJgvLRg" elementId="org.grits.toolbox.core.toolbar.1">
+        <children xsi:type="menu:DirectToolItem" xmi:id="_4jPm0OrEEeWtuK7MJgvLRg" elementId="org.grits.toolbox.core.directtoolitem.project.task" label="Save Preference" iconURI="platform:/plugin/org.grits.toolbox.core/icons/save-16.png" tooltip="Save it as a preference" enabled="false" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.part.toolitem.SaveTask"/>
+      </toolbar>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_3mwrUOyDEeWqlpIj-5aguA" elementId="org.grits.toolbox.core.part.project.event" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.part.EventPart" label="Project Event" iconURI="platform:/plugin/org.grits.toolbox.core/icons/event-icon.png" tooltip="It displays information related to selected project event" closeable="true">
+      <toolbar xmi:id="_BDBxcOyEEeWqlpIj-5aguA" elementId="org.grits.toolbox.core.toolbar.2"/>
+    </sharedElements>
+    <sharedElements xsi:type="advanced:Area" xmi:id="_n0wCgO-hEeWnE9fH0v_Ddw" elementId="org.eclipse.ui.editorss" accessibilityPhrase="" selectedElement="_qvHh4O-hEeWnE9fH0v_Ddw" label="Editor Area">
+      <children xsi:type="basic:PartStack" xmi:id="_qvHh4O-hEeWnE9fH0v_Ddw" elementId="org.eclipse.e4.primaryDataStack">
+        <tags>newtablook</tags>
+        <tags>org.eclipse.e4.primaryDataStack</tags>
+        <tags>EditorStack</tags>
+        <tags>NoAutoCollapse</tags>
+      </children>
+    </sharedElements>
+    <trimBars xmi:id="_9NsHoCEeEee93_TNp1fXXA" elementId="org.grits.toolbox.core.trimbar.top">
+      <children xsi:type="menu:ToolBar" xmi:id="_BngAgCEfEee93_TNp1fXXA" elementId="org.grits.toolbox.core.toolbar.main">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_c3g1ECEfEee93_TNp1fXXA" elementId="org.grits.toolbox.core.handledtoolitem.newproject" label="New Project" iconURI="platform:/plugin/org.grits.toolbox.core/icons/project.png" tooltip="Create a new Project" command="_oXtd8PEHEeWRmMYYlwWG3Q"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_Q7x-0PqmEeWnS5JO5mg-9w" elementId="org.grits.toolbox.core.handler.quit" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.handler.QuitHandler" command="_ICLg4PqmEeWnS5JO5mg-9w"/>
+  <handlers xmi:id="_50adoOb8EeW6y9Dzc8fvoA" elementId="org.grits.toolbox.core.handler.part.save" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.handler.SaveHandler" command="__say0Ob8EeW6y9Dzc8fvoA"/>
+  <handlers xmi:id="_HTy2MAyUEeaWu5ZWSBnXng" elementId="org.grits.toolbox.core.handler.perspective.reset" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.handler.ResetPerspectiveHandler" command="_jAovgPaBEeWPr5Hyqf2VQw"/>
+  <handlers xmi:id="_RkorEADnEeaUF_R45Sy6sQ" elementId="org.grits.toolbox.core.handler.preference.open" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.handler.OpenPreferenceHandler" command="_W_fxQADnEeaUF_R45Sy6sQ"/>
+  <handlers xmi:id="_eUOiIH4nEeimh_cfv371lw" elementId="org.grits.toolbox.core.handler.toggleHideClosed" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.projectexplorer.handler.HideClosedProjects" command="_SQGB4H4nEeimh_cfv371lw"/>
+  <handlers xmi:id="_6qNl4IxBEeimh_cfv371lw" elementId="org.grits.toolbox.core.handler.0" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.projectexplorer.handler.FilterProjectsByKeyword" command="_8C5QEIxBEeimh_cfv371lw"/>
+  <handlers xmi:id="_R3HUIPAhEemGMNtmis6IaQ" elementId="org.grits.toolbox.core.handler.about" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.handler.AboutHandler" command="_CMw7IPAhEemGMNtmis6IaQ"/>
+  <bindingTables xmi:id="_AO8ZkODeEeaUVu2_1UmTXg" elementId="org.grits.toolbox.core.bindingtable.windows" bindingContext="_7ZLkgODdEeaUVu2_1UmTXg">
+    <bindings xmi:id="_CB92YODeEeaUVu2_1UmTXg" elementId="org.grits.toolbox.core.keybinding.save" keySequence="CTRL+S" command="__say0Ob8EeW6y9Dzc8fvoA">
+      <tags>type:user</tags>
+    </bindings>
+  </bindingTables>
+  <rootContext xmi:id="_eOmU0ObTEeW6y9Dzc8fvoA" elementId="org.grits.toolbox.core.bindingcontext.entry" name="Entry" description="It is a context used for identifying entry context in grits"/>
+  <rootContext xmi:id="_1gpD0ODdEeaUVu2_1UmTXg" elementId="org.grits.toolbox.core.bindingcontext.ui" name="UI Context" description="Context for UI Components">
+    <children xmi:id="_7ZLkgODdEeaUVu2_1UmTXg" elementId="org.grits.toolbox.core.bindingcontext.windows" name="Windows Context" description="Context for Windows"/>
+  </rootContext>
+  <descriptors xmi:id="_tVygAOYbEeWz_tgAAnIIeA" elementId="org.grits.toolbox.core.partdescriptor.entry.project" label="Project Entry" iconURI="platform:/plugin/org.grits.toolbox.core/icons/project.png" tooltip="It displays information related to a project entry" bindingContexts="_eOmU0ObTEeW6y9Dzc8fvoA" allowMultiple="true" category="org.grits.toolbox.property.project" closeable="true" dirtyable="true" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.part.ProjectEntryPart">
+    <tags>default</tags>
+    <tags>perspective:org.grits.toolbox.core.perspective.entry.project</tags>
+    <handlers xmi:id="_9GfvoOoAEeWV4IpCBSsXPQ" elementId="org.grits.toolbox.core.handler.entry.project.table.add" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.part.handler.AddHandler" command="_ImCIgOoWEeWV4IpCBSsXPQ"/>
+    <handlers xmi:id="_FB_mkOoBEeWV4IpCBSsXPQ" elementId="org.grits.toolbox.core.handler.entry.project.table.delete" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.part.handler.DeleteHandler" command="_kFrUgOoWEeWV4IpCBSsXPQ"/>
+    <handlers xmi:id="_KRTkEOoBEeWV4IpCBSsXPQ" elementId="org.grits.toolbox.core.handler.entry.project.table.view" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.part.handler.ViewHandler" command="_kY5ygOoWEeWV4IpCBSsXPQ"/>
+  </descriptors>
+  <descriptors xmi:id="_mwfigC5SEeazAcdYKUWpGA" elementId="org.grits.toolbox.core.part.projectexplorer" label="Project Explorer" iconURI="platform:/plugin/org.grits.toolbox.core/icons/project2.png" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.projectexplorer.part.ProjectExplorerPart">
+    <tags>NO_CLOSE</tags>
+    <toolbar xmi:id="_EV-3cH4nEeimh_cfv371lw" elementId="org.grits.toolbox.core.toolbar.3">
+      <children xsi:type="menu:HandledToolItem" xmi:id="_FeMcsH4nEeimh_cfv371lw" elementId="org.grits.toolbox.core.handledtoolitem.hideClosed" label="Hide Closed Projects" tooltip="Toggle between &quot;Do not show closed projects&quot;/&quot;Show all projects&quot;" type="Check" command="_SQGB4H4nEeimh_cfv371lw"/>
+    </toolbar>
+  </descriptors>
+  <commands xmi:id="_-J_QgOVsEeWC8ICzfPvYiA" elementId="org.grits.toolbox.core.command.projectexplorer.entry.copy" commandName="Copy Entry" description="It copies an entry from one parent to another in the workspace"/>
+  <commands xmi:id="_Nuff4ObQEeW6y9Dzc8fvoA" elementId="org.grits.toolbox.core.command.projectexplorer.entry.view" commandName="View Entry" description="It is executed when entry in project explorer view is selected to be viewed"/>
+  <commands xmi:id="__say0Ob8EeW6y9Dzc8fvoA" elementId="org.grits.toolbox.core.command.part.save" commandName="Save"/>
+  <commands xmi:id="_ImCIgOoWEeWV4IpCBSsXPQ" elementId="org.grits.toolbox.core.command.entry.project.table.add" commandName="Project Table Add" description="Add a new " category="_VFAKoOoWEeWV4IpCBSsXPQ">
+    <parameters xmi:id="_hzBzQAyCEeaWu5ZWSBnXng" elementId="org.grits.toolbox.core.commandparameter.addtotable.type" name="Add Type" optional="false"/>
+  </commands>
+  <commands xmi:id="_kFrUgOoWEeWV4IpCBSsXPQ" elementId="org.grits.toolbox.core.command.entry.project.table.delete" commandName="Project Table Delete" category="_VFAKoOoWEeWV4IpCBSsXPQ"/>
+  <commands xmi:id="_kY5ygOoWEeWV4IpCBSsXPQ" elementId="org.grits.toolbox.core.command.entry.project.table.view" commandName="Project Table View" category="_VFAKoOoWEeWV4IpCBSsXPQ"/>
+  <commands xmi:id="_oXtd8PEHEeWRmMYYlwWG3Q" elementId="org.grits.toolbox.core.command.projectexplorer.new.project" commandName="New Project">
+    <parameters xmi:id="_aQptAPzWEeWIevMn6DjF3w" elementId="org.grits.toolbox.core.commandparameter.eventtrigger.classname" name="Event Trigger Class Name" typeId=""/>
+  </commands>
+  <commands xmi:id="_zNaPkPHgEeWoXJuVDfCXAg" elementId="org.grits.toolbox.core.command.projectexplorer.open.project" commandName="Open Project"/>
+  <commands xmi:id="_qd2xkPH4EeWoXJuVDfCXAg" elementId="org.grits.toolbox.core.command.projectexplorer.close.project" commandName="Close Project"/>
+  <commands xmi:id="_roVgQPK_EeWPP7B_789HvQ" elementId="org.grits.toolbox.core.command.projectexplorer.entry.delete" commandName="Delete Entry" description="Deletes the selected entry"/>
+  <commands xmi:id="_Qq45oPT0EeWA4d4-LPo-Vg" elementId="org.grits.toolbox.core.command.projectexplorer.entry.refresh" commandName="Refresh Entry" description="Refreshes the selected entry"/>
+  <commands xmi:id="_Hh6jIPUZEeWA4d4-LPo-Vg" elementId="org.grits.toolbox.core.command.projectexplorer.entry.rename" commandName="Rename Entry"/>
+  <commands xmi:id="_NPtTgPW1EeWnsrqUU9oM-w" elementId="org.grits.toolbox.core.command.entry.project.export" commandName="Export Project" description="Exports the selected project(s) into a .GR zipped file"/>
+  <commands xmi:id="_ImUREPW2EeWnsrqUU9oM-w" elementId="org.grits.toolbox.core.command.export.project.task" commandName="Export Task" description="Exports project tasks into an excel sheet"/>
+  <commands xmi:id="_4QeOkPW2EeWnsrqUU9oM-w" elementId="org.grits.toolbox.core.command.entry.project.import" commandName="Import Project" description="Imports the project(s) from a zipped .GR file"/>
+  <commands xmi:id="_jAovgPaBEeWPr5Hyqf2VQw" elementId="org.grits.toolbox.core.command.perspective.reset" commandName="Reset Perspective" description="Resets the currently selected Perspective"/>
+  <commands xmi:id="_YAFnoPaLEeWPr5Hyqf2VQw" elementId="org.eclipse.ui.window.preferences" commandName="Preference"/>
+  <commands xmi:id="_ICLg4PqmEeWnS5JO5mg-9w" elementId="org.grits.toolbox.core.command.quit" commandName="Quit" description="Quits the main application"/>
+  <commands xmi:id="_W_fxQADnEeaUF_R45Sy6sQ" elementId="org.grits.toolbox.core.command.preference.open" commandName="Open Preference" description="Opens preference dialog">
+    <parameters xmi:id="_e-mV0ADnEeaUF_R45Sy6sQ" elementId="org.grits.toolbox.core.commandparameter.preference.pageid" name="Preference Page Id"/>
+  </commands>
+  <commands xmi:id="_SQGB4H4nEeimh_cfv371lw" elementId="org.grits.toolbox.core.command.hideclosedprojects" commandName="Hide Closed Projects" description="hides closed projects or displays all"/>
+  <commands xmi:id="_8C5QEIxBEeimh_cfv371lw" elementId="org.grits.toolbox.core.command.filterbykeyword" commandName="Filter By Keyword"/>
+  <commands xmi:id="_CMw7IPAhEemGMNtmis6IaQ" elementId="org.grits.toolbox.core.command.about" commandName="About"/>
+  <addons xmi:id="_Fai20dsWEeWDyICkaK4Vwg" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_Fai20tsWEeWDyICkaK4Vwg" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_Fai209sWEeWDyICkaK4Vwg" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_Fai21NsWEeWDyICkaK4Vwg" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_Fai21dsWEeWDyICkaK4Vwg" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_Fai21tsWEeWDyICkaK4Vwg" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_Fai219sWEeWDyICkaK4Vwg" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_4tBs4PgVEeWuj72D7hiI0g" elementId="org.grits.toolbox.core.addon.gritsaddon" contributionURI="bundleclass://org.grits.toolbox.core/org.grits.toolbox.core.GritsAddon"/>
+  <categories xmi:id="_VFAKoOoWEeWV4IpCBSsXPQ" elementId="org.grits.toolbox.core.category.entry.project" name="Project Entry" description="It is for the project entry"/>
+</application:Application>

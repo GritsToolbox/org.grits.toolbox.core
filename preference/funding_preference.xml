@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaultPreferences>
+  <preference name="NIH" selected="true"/>
+  <preference name="NFS"/>
+  <preference name="FDA"/>
+  <preference name="Welcome Trust"/>
+</defaultPreferences>

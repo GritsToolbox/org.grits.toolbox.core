@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaultPreferences>
+  <preference name="MS profiling" selected="true"/>
+  <preference name="GC-MS"/>
+  <preference name="CE"/>
+  <preference name="NMR"/>
+</defaultPreferences>

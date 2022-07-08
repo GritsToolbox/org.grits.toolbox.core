@@ -1,0 +1,10 @@
+<TITLE>WELCOME TO GRITS Toolbox 1.3</TITLE>
+
+<BODY>GRITS Toolbox is a freely available software system for the processing, interpretation and storage of glycomics data and associated Meta data. The main focus of the software is the interpretation of mass spectrometric (MS) data of released glycans using different MS types. The data can be annotated using our integration annotation module Glycomics Elucidation and Annotation Tool (GELATO) and the provided glycan structure database based on the curated <a href="http://glycomics.ccrc.uga.edu/qrator/">GlycO ontology</a>. An extensive graphical user interface allows browsing and manual modification of the annotated data, as well as exporting the data to Excel for further post processing. Results of several different experiments can also be merged together and displayed side by side to find changes in the glycosylation pattern of the analyzed samples. 
+
+A separate qRT-PCR module allows planning and interpretation of qRT-PCR data as well as comparison of datasets from different samples with each other. The data can be viewed as tables as well as histograms.
+
+In addition GRITS Toolbox has modules for project management, storage of meta data about the samples and how experiments have been performed. It is also possible to attach files and emails to projects and samples.
+
+For more information please visit the <a href="http://www.grits-toolbox.org">GRITS Toolbox home page</a> or watch our tutorials on <a href="https://www.youtube.com/channel/UCH-K1KDIcru-GXFio0awO9Q">YouTube</a>. 
+</BODY>

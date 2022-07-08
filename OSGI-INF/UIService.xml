@@ -1,0 +1,8 @@
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="GritsUIService">
+   <implementation class="org.grits.toolbox.core.service.GritsContextFunction"/>
+   <service>
+      <provide interface="org.eclipse.e4.core.contexts.IContextFunction"/>
+   </service>
+   <property name="service.context.key" type="String" value="org.grits.toolbox.core.service.IGritsUIService"/>
+</scr:component>
+

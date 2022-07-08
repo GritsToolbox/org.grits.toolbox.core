@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaultPreferences>
+  <preference name="Glycomics" selected="true"/>
+  <preference name="Plant research"/>
+  <preference name="Glyco-proteomics" selected="false"/>
+  <preference name="Genomics" selected="false"/>
+  <preference name="Metabolomics" selected="false"/>
+  <preference name="Proteomics" selected="false"/>
+</defaultPreferences>

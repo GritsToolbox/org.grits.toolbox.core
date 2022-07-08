@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaultPreferences>
+  <preference name="Undergraduate"/>
+  <preference name="Graduate Student"/>
+  <preference name="Post-Doc"/>
+  <preference name="Research scientists"/>
+  <preference name="Principle Investigator" selected="true"/>
+  <preference name="Lab manager"/>
+</defaultPreferences>

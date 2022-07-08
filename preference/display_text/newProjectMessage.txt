@@ -1,0 +1,24 @@
+<TITLE>Congratulations, you did the first step in GRITS Toolbox by creating a new project. The project has been automatically opened and you can start with project management (optional). The following text summarizes a few of the options you have now. You can also visit the <a href="http://www.grits-toolbox.org">GRITS Toolbox home page</a> or watch our tutorials on <a href="https://www.youtube.com/channel/UCH-K1KDIcru-GXFio0awO9Q">YouTube</a> for more information. In case of problems or suggestions please feel free to contact René Ranzinger (rene@ccrc.uga.edu) or Mindy Porterfield (mindyp@ccrc.uga.edu) we are happy to help.
+</TITLE>
+<BODY>
+<p>
+<h1>Interpretation of MS data of release glycans</h1>
+-  Attach a sample to your project (File → New → Analyte); Filling in the sample information is optional
+-  (Optional) create an experiment design for your sample to describe how the experiment was performed (File → New → Experiment Design)
+-  Add MS data in mzXML or mzML format to your sample (File → New → MS Experiment)
+-  Annotate the MS data with glycan structures (File → New → GELATO annotation)
+You can manually modify the annotation and/or export the results to Excel.
+</p>
+<p>
+<h1>Compare MS annotation from different samples</h1>
+-  Select two annotations from samples within a project
+-  Create a new merge report (Merge MS Glycan Annotations → New MS Glycan Annotation Report)
+You can view the samples in a table side by side and/or export the results to Excel.
+</p>
+<p>
+<h1>Archive files and emails</h1>
+It is possible to archive other types of data together with the project or sample in the form of files. Any other file (reports, paper, bills) or emails can be archived as well. 
+-  Select a project or sample
+-  Create a new document archive (File → New → Archive)
+</p>
+</BODY>
