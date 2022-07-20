@@ -50,7 +50,6 @@ import org.grits.toolbox.core.projectexplorer.handler.ViewSelectedHandler;
 import org.grits.toolbox.core.service.IGritsDataModelService;
 import org.grits.toolbox.core.utilShare.sort.EntryComparator;
 
-@SuppressWarnings("restriction")
 public class ProjectExplorerPart
 {
 	private static final Logger logger = Logger.getLogger(ProjectExplorerPart.class);
@@ -91,7 +90,7 @@ public class ProjectExplorerPart
 		PatternFilter filter = new PatternFilter();
 		filter.setIncludeLeadingWildcard(true);
 		FilteredTree tree = new FilteredTree(parent, SWT.MULTI | SWT.H_SCROLL
-				| SWT.V_SCROLL, filter, true);
+				| SWT.V_SCROLL, filter, true, false);
 
 		//treeViewer = new TreeViewer(parent, SWT.MULTI | SWT.H_SCROLL | SWT.V_SCROLL);
 		treeViewer = tree.getViewer();
