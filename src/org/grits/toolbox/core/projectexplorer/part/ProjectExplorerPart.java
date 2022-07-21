@@ -90,7 +90,7 @@ public class ProjectExplorerPart
 		PatternFilter filter = new PatternFilter();
 		filter.setIncludeLeadingWildcard(true);
 		FilteredTree tree = new FilteredTree(parent, SWT.MULTI | SWT.H_SCROLL
-				| SWT.V_SCROLL, filter, true, false);
+				| SWT.V_SCROLL, filter, true, true);
 
 		//treeViewer = new TreeViewer(parent, SWT.MULTI | SWT.H_SCROLL | SWT.V_SCROLL);
 		treeViewer = tree.getViewer();
